@@ -1,4 +1,4 @@
-# Bunch_Alfred
+# Bunch For Alfred
 This workflow takes advantage of Brett Terpstra's [Bunch Application](https://brettterpstra.com/projects/bunch/). 
 
 Bunch is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come. 

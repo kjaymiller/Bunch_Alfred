@@ -808,7 +808,7 @@ I've also changed the refresh call to now be contained in a single javascript fo
 		<key>mode</key>
 		<string>app</string>
 		<key>working_dir</key>
-		<string>~/Library/Application</string>
+		<string>~/bunches</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>

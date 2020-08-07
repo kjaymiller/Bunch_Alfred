@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.kjaymiller.bunch</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>067AEB96-43D7-4410-82D2-25499A4DAE36</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D074541B-9607-4A29-869A-6285DB376785</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>77278DE8-9104-4B81-BDD0-FAA26BF1712B</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Close Items (Ignore Settings)</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D8945AD3-DDE2-45C0-9C66-9156E568F414</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Force Open of Bunch (Ignore Settings)</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B61EF618-7669-47E2-9A8F-08213BAB4C5D</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Edit the Bunch</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2F609F3D-188D-4378-B68E-F62C9BB8711B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>330528F9-E48D-46CE-A21F-FC8AAF388466</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>330528F9-E48D-46CE-A21F-FC8AAF388466</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8619B750-1DDE-435E-A4CF-782170633E33</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4748D4C5-17AA-4262-83F7-25ED158D3A1E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B61EF618-7669-47E2-9A8F-08213BAB4C5D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>77278DE8-9104-4B81-BDD0-FAA26BF1712B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8C3EDE40-2DEF-47C7-B754-FE0CD80E7D98</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7D6D96AF-6EFB-4C25-831A-678741FBF6E2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9742ED83-5307-4CA5-BAAC-0BEB4411CDB4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>19F25AC1-BE30-4E42-B19E-072EC1C1F813</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Modify the Default Bunches Folder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9742ED83-5307-4CA5-BAAC-0BEB4411CDB4</key>
+		<array/>
+		<key>CDBCE65F-3A55-4961-AD2A-EF7B130B1749</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0A0C9C61-D2B2-4F68-8BBB-8BA320513ADB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D074541B-9607-4A29-869A-6285DB376785</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D7534B3-62D8-405A-BF50-15B43E4B8449</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D8945AD3-DDE2-45C0-9C66-9156E568F414</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A06FF0CE-7D84-49DB-AB20-CD911468F16D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>kjaymiller</string>
+	<key>description</key>
+	<string>Runs the Selected Bunch</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Bunch</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query} Triggered via {var:mode}</string>
+				<key>title</key>
+				<string>{query} Toggled</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>3D7534B3-62D8-405A-BF50-15B43E4B8449</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+$cli_path -t $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D074541B-9607-4A29-869A-6285DB376785</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query} Closed</string>
+				<key>title</key>
+				<string>{query} Closed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8C3EDE40-2DEF-47C7-B754-FE0CD80E7D98</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+$cli_path -t $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>77278DE8-9104-4B81-BDD0-FAA26BF1712B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>bunch</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python3 bunch.py</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>bunch.rb</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Work with Bunch</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>067AEB96-43D7-4410-82D2-25499A4DAE36</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query} Opened</string>
+				<key>title</key>
+				<string>{query} Opened</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>A06FF0CE-7D84-49DB-AB20-CD911468F16D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+$cli_path -o $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D8945AD3-DDE2-45C0-9C66-9156E568F414</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>{var:working_dir}/{query}.bunch</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>B61EF618-7669-47E2-9A8F-08213BAB4C5D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>bedit</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import sys
+import json
+from subprocess import check_output
+
+items=check_output(['./bunch.rb', '-l']).split('\n')
+
+def make_json_path(p):
+	return {
+		"title": p,
+		"subtitle": "edit the {} Bunch".format(p),
+		"arg": p,
+		}
+
+json_item = {}
+json_item['items']=list(map(make_json_path, items))
+print(json.dumps(json_item))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Edit the Bunch File</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4748D4C5-17AA-4262-83F7-25ED158D3A1E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string>{var:working_dir}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinalfred</string>
+			<key>uid</key>
+			<string>9742ED83-5307-4CA5-BAAC-0BEB4411CDB4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>function run(argv) {
+	var se = Application('System Events')
+	bunch = Application('Bunch')
+	bunch.activate();
+	var proc = se.processes.byName('Bunch')
+	var editMenu = proc.menuBars[0].menuBarItems.byName('Bunch');
+	editMenu.menus[0].menuItems.byName('Change Bunches Folder').click();
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>19F25AC1-BE30-4E42-B19E-072EC1C1F813</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bsettings:bunches_folder</string>
+				<key>subtext</key>
+				<string>Current Dir: {var:working_dir}. CMD+Return will prompt you to reset your working dir</string>
+				<key>text</key>
+				<string>View your current bunches folder.</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7D6D96AF-6EFB-4C25-831A-678741FBF6E2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bsettings:refresh</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Refresh Your Bunches</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2F609F3D-188D-4378-B68E-F62C9BB8711B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>The Bunches has been Set to {query}</string>
+				<key>title</key>
+				<string>The Bunches has been Set to {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8619B750-1DDE-435E-A4CF-782170633E33</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$(defaults read com.brettterpstra.bunch configDir)
+
+plutil -replace variables.working_dir -string $query "$alfred_preferences/workflows/$alfred_workflow_uid/info.plist"
+
+echo $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>330528F9-E48D-46CE-A21F-FC8AAF388466</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bsettings:help</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Show the Bunch for Alfred Readme</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CDBCE65F-3A55-4961-AD2A-EF7B130B1749</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/kjaymiller/Bunch_Alfred</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>0A0C9C61-D2B2-4F68-8BBB-8BA320513ADB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow takes advantage of Brett Terpstra's [Bunch Application](https://brettterpstra.com/projects/bunch/). 
+
+Bunch is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come. 
+
+This workflow utilizes Bunch's [CLI script](https://gist.github.com/ttscoff/07820820270759b5ce98b06521877a54)
+
+This Workflow is maintained by kjaymiller.
+More at https://kjaymiller.com.
+
+
+## Directions:
+
+* `b - Top Level Bunch Selector`
+* `b &lt;bunch&gt;` - Toggles the selected bunch
+
+MODIFIERS (+ Return)
+--------------------
+ - CMD = Forces Open the Bunch
+ - Control = Forces Closed the Applications listed in the bunch.
+ - Shift = Opens the Bunch file to be edited
+--------------------
+
+* `bedit &lt;bunch&gt; - Opens the Bunch file to be edited
+* `bsettings:refresh` - Refreshes your Bunch List 
+
+Change Log
+----------
+2019-05-31.0
+Huge overhaul of the workflow. This workflow no longer runs off the url scheme and now runs off the CLI that Brett and a few others have created. 
+
+This change will allow for greater flexibility and speed with the application.
+
+I've also changed the refresh call to now be contained in a single javascript for automation script instead of many steps. This was just for a cleaner look.
+
+* CHANGED `b - Top Level Bunch Selector` Now displays the active bunches
+* Changed: `b &lt;bunch filename&gt;` - Runs the Selected Bunch
+* REMOVED: `b display &lt;bunch filename&gt;` - Displays the contents of the Bunch in Large Text
+* CHANGED `b edit &lt;bunch filename&gt;` - Now `bedit &lt;bunch name&gt;
+* CHANGED `b refresh` -now</string>
+	<key>uidata</key>
+	<dict>
+		<key>067AEB96-43D7-4410-82D2-25499A4DAE36</key>
+		<dict>
+			<key>xpos</key>
+			<integer>45</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+		<key>0A0C9C61-D2B2-4F68-8BBB-8BA320513ADB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>195</integer>
+			<key>ypos</key>
+			<integer>1140</integer>
+		</dict>
+		<key>19F25AC1-BE30-4E42-B19E-072EC1C1F813</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>315</integer>
+			<key>ypos</key>
+			<integer>825</integer>
+		</dict>
+		<key>2F609F3D-188D-4378-B68E-F62C9BB8711B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Only necessarily for app mode.</string>
+			<key>xpos</key>
+			<integer>35</integer>
+			<key>ypos</key>
+			<integer>965</integer>
+		</dict>
+		<key>330528F9-E48D-46CE-A21F-FC8AAF388466</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<integer>195</integer>
+			<key>ypos</key>
+			<integer>970</integer>
+		</dict>
+		<key>3D7534B3-62D8-405A-BF50-15B43E4B8449</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>585</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>4748D4C5-17AA-4262-83F7-25ED158D3A1E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>500</integer>
+		</dict>
+		<key>77278DE8-9104-4B81-BDD0-FAA26BF1712B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>435</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>7D6D96AF-6EFB-4C25-831A-678741FBF6E2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>25</integer>
+			<key>ypos</key>
+			<integer>835</integer>
+		</dict>
+		<key>8619B750-1DDE-435E-A4CF-782170633E33</key>
+		<dict>
+			<key>xpos</key>
+			<integer>350</integer>
+			<key>ypos</key>
+			<integer>970</integer>
+		</dict>
+		<key>8C3EDE40-2DEF-47C7-B754-FE0CD80E7D98</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>580</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>9742ED83-5307-4CA5-BAAC-0BEB4411CDB4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
+		<key>A06FF0CE-7D84-49DB-AB20-CD911468F16D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>585</integer>
+			<key>ypos</key>
+			<integer>335</integer>
+		</dict>
+		<key>B61EF618-7669-47E2-9A8F-08213BAB4C5D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>500</integer>
+		</dict>
+		<key>CDBCE65F-3A55-4961-AD2A-EF7B130B1749</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>note</key>
+			<string>Only necessarily for app mode.</string>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>1135</integer>
+		</dict>
+		<key>D074541B-9607-4A29-869A-6285DB376785</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>425</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>D8945AD3-DDE2-45C0-9C66-9156E568F414</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>335</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>cli_path</key>
+		<string>./bunch.rb</string>
+		<key>mode</key>
+		<string>app</string>
+		<key>working_dir</key>
+		<string>~/Library/Application</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>2019-05-31.1</string>
+	<key>webaddress</key>
+	<string>https://kjaymiller.com</string>
+</dict>
+</plist>

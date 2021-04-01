@@ -302,7 +302,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>bunch.rb -f</string>
+				<string>ruby bunch.rb -f</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -325,7 +325,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>x-bunch://setPref?configDir=Users/kjaymiller/bunches</string>
+				<string>x-bunch://setPref?configDir={var:configDir}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -469,7 +469,8 @@
 
 Bunch is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come. 
 
-This workflow utilizes Bunch's [CLI script](https://gist.github.com/ttscoff/07820820270759b5ce98b06521877a54)
+This workflow utilizes Bunch's [CLI script](https://brettterpstra.com/bunch-beta/docs/integration/cli/) and the [x-callback-url](https://brettterpstra.com/bunch-beta/docs/integration/url-handler/).
+
 
 This Workflow is maintained by kjaymiller.
 More at https://kjaymiller.com.
@@ -477,33 +478,19 @@ More at https://kjaymiller.com.
 
 ## Directions:
 
-* `b - Top Level Bunch Selector`
-* `b &lt;bunch&gt;` - Toggles the selected bunch
+1. trigger Alfred
+2. type bunch (You should see "Work with Bunch" press **return** or **tab**
+3. begin typing the name of the bunch you wish to run (You can also search through the bunches
+4. _Return_ will open the bunch. _⌘+Return_ will close the bunch
 
-MODIFIERS (+ Return)
---------------------
- - CMD = Forces Open the Bunch
- - Control = Forces Closed the Applications listed in the bunch.
- - Shift = Opens the Bunch file to be edited
---------------------
+## Troubleshooting
 
-* `bedit &lt;bunch&gt; - Opens the Bunch file to be edited
-* `bsettings:refresh` - Refreshes your Bunch List 
+* `bsettings:refresh` - Refreshes your Bunch List and your Bunches Application with the value in Workflow Environment Variables under `configDir (Default ~/bunches)`
 
-Change Log
-----------
-2019-05-31.0
-Huge overhaul of the workflow. This workflow no longer runs off the url scheme and now runs off the CLI that Brett and a few others have created. 
+### That still didn't work
 
-This change will allow for greater flexibility and speed with the application.
-
-I've also changed the refresh call to now be contained in a single javascript for automation script instead of many steps. This was just for a cleaner look.
-
-* CHANGED `b - Top Level Bunch Selector` Now displays the active bunches
-* Changed: `b &lt;bunch filename&gt;` - Runs the Selected Bunch
-* REMOVED: `b display &lt;bunch filename&gt;` - Displays the contents of the Bunch in Large Text
-* CHANGED `b edit &lt;bunch filename&gt;` - Now `bedit &lt;bunch name&gt;
-* CHANGED `b refresh` -now</string>
+copy the value in configDir and run this command in terminal
+`defaults write /Users/&lt;YOUR_PROFILE&gt;/Library/Preferences/com.brettterpstra.Bunch.plist configDir -string &lt;configDir_VARIABLE&gt;`</string>
 	<key>uidata</key>
 	<dict>
 		<key>067AEB96-43D7-4410-82D2-25499A4DAE36</key>
@@ -625,13 +612,13 @@ I've also changed the refresh call to now be contained in a single javascript fo
 	<dict>
 		<key>cli_path</key>
 		<string>bunch</string>
-		<key>working_dir</key>
-		<string>/user/kjaymiller/bunches</string>
+		<key>configDir</key>
+		<string>~/bunches</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>2021.04.01</string>
+	<string>2021.04.011</string>
 	<key>webaddress</key>
 	<string>https://kjaymiller.com</string>
 </dict>

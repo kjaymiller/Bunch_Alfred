@@ -13,6 +13,10 @@ More at https://kjaymiller.com.
 
 ## Directions:
 
+## First Use
+
+> The default path it assumes your bunces are at is `~/bunches` (This is the path I set so if you have any issues where you cannot see your bunches change the variable to your desired path and run `bsettings:refresh`
+
 1. trigger Alfred
 2. type bunch (You should see "Work with Bunch" press **return** or **tab**
 3. begin typing the name of the bunch you wish to run (You can also search through the bunches

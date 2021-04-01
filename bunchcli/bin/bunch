@@ -1,0 +1,108 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'bunch'
+
+def help
+  puts "\nUsage: #{File.basename(__FILE__)} [options] BUNCH_NAME|PATH_TO_FILE"
+  puts "\nBunch names are case insensitive and will execute first match"
+  puts "Use 'bunch -h' to display options"
+end
+
+def version
+  puts "Bunch CLI v#{BunchCLI::VERSION}"
+end
+
+bunch = Bunch.new
+
+optparse = OptionParser.new do |opts|
+  opts.banner = "CLI for Bunch.app v#{BunchCLI::VERSION}"
+
+  opts.on('-l', '--list', 'List available Bunches') do |_opt|
+    bunch.list_bunches
+    Process.exit 0
+  end
+
+  opts.on('-s', '--show BUNCH', 'Show contents of Bunch') do |opt|
+    bunch.show(opt)
+    Process.exit 0
+  end
+
+  opts.on('-o', '--open', 'Open Bunch ignoring "Toggle Bunches" preference') do |_opt|
+    bunch.url_method = 'open'
+  end
+
+  opts.on('-c', '--close', 'Close Bunch ignoring "Toggle Bunches" preference') do |_opt|
+    bunch.url_method = 'close'
+  end
+
+  opts.on('-t', '--toggle', 'Toggle Bunch ignoring "Toggle Bunches" preference') do |_opt|
+    bunch.url_method = 'toggle'
+  end
+
+  opts.on('--snippet', 'Load as snippet') do |opt|
+    bunch.url_method = 'snippet'
+  end
+
+  opts.on('--fragment=FRAGMENT', 'Run a specific section') do |opt|
+    bunch.fragment = opt
+  end
+
+  opts.on('--vars=VARS', 'Variables to pass to a snippet, comma-separated') do |opt|
+    bunch.variables = opt
+  end
+
+  opts.on('--pref', 'Set a preference. Run without argument to list available preferences.') do |opt|
+    bunch.url_method = 'setPref'
+  end
+
+  opts.on('-u', '--url', 'Output URL instead of opening') do |_opt|
+    bunch.show_url = true
+  end
+
+  opts.on('-i','--interactive', 'Interactively generate a Bunch url') do |opt|
+    BunchURLGenerator.new.generate
+    Process.exit 0
+  end
+
+  opts.on('--show-config', 'Display all configuration values') do |opt|
+    bunch.show_config
+    Process.exit 0
+  end
+
+  opts.on('--show-config-key KEY', 'Display a config value [dir, toggle, method]') do |opt|
+    bunch.show_config(opt)
+    Process.exit 0
+  end
+
+  opts.on('-f', '--force-refresh', 'Force refresh cached preferences') do |opt|
+    bunch.update_cache
+  end
+
+  opts.on('-h', '--help', 'Display this screen') do |_opt|
+    puts opts
+    help
+    Process.exit 0
+  end
+
+  opts.on('-v', '--version', 'Display Bunch version') do |_opt|
+    version
+    Process.exit 0
+  end
+end
+
+optparse.parse!
+
+unless ARGV.length > 0
+  if STDIN.stat.size > 0
+    bunch.url_method = 'raw'
+    bunch.open(CGI.escape(STDIN.read))
+  elsif bunch.url_method == 'setPref'
+    bunch.list_preferences
+  else
+    puts "CLI for Bunches.app"
+    help
+  end
+else
+  ARGV.map { |arg| bunch.open(arg) }
+end

@@ -1,7 +1,7 @@
 import json
 import subprocess
 
-cmd=subprocess.run(['ruby', './bunch.rb', '-l'], capture_output=True)
+cmd=subprocess.run(['ruby', 'bunch.rb', '-l'], capture_output=True)
 items=cmd.stdout.decode('utf-8')
 
 def make_json_path(p):
@@ -12,5 +12,6 @@ def make_json_path(p):
         }
 
 json_item = {}
-json_item['items']=list(map(make_json_path, items.split('\n')))
+bunch_items = [x for x in items.split('\n') if x]
+json_item['items']=list(map(make_json_path, bunch_items))
 print(json.dumps(json_item))

@@ -31,6 +31,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>105014BF-1562-46A5-AC03-6CF76967433D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6905EB44-F809-4A03-8CE7-F1CB4C900861</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2F609F3D-188D-4378-B68E-F62C9BB8711B</key>
 		<array>
 			<dict>
@@ -44,33 +57,7 @@
 				<false/>
 			</dict>
 		</array>
-		<key>38F02C6F-4C77-47A4-872F-D797372D01BF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>A001C415-D64A-47A5-A77D-1217D56E6B16</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>48180282-2A59-4026-A154-A38B95B78B8E</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4EB93C9D-45A8-4AF8-9C20-C4CFB9DC833D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>4EB93C9D-45A8-4AF8-9C20-C4CFB9DC833D</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -83,15 +70,25 @@
 				<false/>
 			</dict>
 		</array>
-		<key>52BBF730-92FD-4C69-803E-B83B653F974A</key>
+		<key>6BC0F4F9-AF18-4E97-BB9A-7C0E6D503A74</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>38F02C6F-4C77-47A4-872F-D797372D01BF</string>
+				<string>53ABD444-7BB1-453E-9673-E26AA6DCB4AD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CE9FA7C5-482B-4561-9AB8-DBFAFFE3588E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>close {query}</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -138,54 +135,139 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alignment</key>
-				<integer>0</integer>
-				<key>backgroundcolor</key>
+				<key>browser</key>
 				<string></string>
-				<key>fadespeed</key>
-				<integer>0</integer>
-				<key>fillmode</key>
-				<integer>0</integer>
-				<key>font</key>
+				<key>spaces</key>
 				<string></string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>largetypetext</key>
-				<string>{query}</string>
-				<key>textcolor</key>
-				<string></string>
-				<key>wrapat</key>
-				<integer>50</integer>
+				<key>url</key>
+				<string>x-bunch://open?bunch={query}</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>A001C415-D64A-47A5-A77D-1217D56E6B16</string>
+			<string>53ABD444-7BB1-453E-9673-E26AA6DCB4AD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>bunch</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python3 bunch.py
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>bunch.rb</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Work with Bunch</string>
+				<key>type</key>
+				<integer>6</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>067AEB96-43D7-4410-82D2-25499A4DAE36</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>x-bunch://close?bunch={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>CE9FA7C5-482B-4561-9AB8-DBFAFFE3588E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>b</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
 				<key>script</key>
-				<string>ruby bunch.rb --show-config</string>
+				<string>python3 bunch.py</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
+				<string>bunch.rb</string>
+				<key>subtext</key>
 				<string></string>
+				<key>title</key>
+				<string>Work with Bunch</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>38F02C6F-4C77-47A4-872F-D797372D01BF</string>
+			<string>6BC0F4F9-AF18-4E97-BB9A-7C0E6D503A74</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -193,18 +275,37 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>bsettings:show_config</string>
+				<string>bsettings</string>
 				<key>subtext</key>
-				<string>Current Dir: {var:working_dir}. CMD+Return will prompt you to reset your working dir</string>
+				<string>Current Dir: {var:config_dir}. CMD+Return will prompt you to reset your working dir</string>
 				<key>text</key>
-				<string>Show the config for your bunches folder</string>
+				<string>Open Bunch Settings</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>52BBF730-92FD-4C69-803E-B83B653F974A</string>
+			<string>105014BF-1562-46A5-AC03-6CF76967433D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>x-bunch://prefs</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6905EB44-F809-4A03-8CE7-F1CB4C900861</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -212,7 +313,7 @@
 			<key>config</key>
 			<dict>
 				<key>path</key>
-				<string>{var:working_dir}</string>
+				<string>{var:configDir}</string>
 				<key>sortBy</key>
 				<integer>0</integer>
 				<key>sortDirection</key>
@@ -239,7 +340,7 @@
 				<key>keyword</key>
 				<string>bsettings:bunches_folder</string>
 				<key>subtext</key>
-				<string>Current Dir: {var:working_dir}. CMD+Return will prompt you to reset your working dir</string>
+				<string>Current Dir: {var:config_dir}. CMD+Return will prompt you to reset your working dir</string>
 				<key>text</key>
 				<string>View your current bunches folder.</string>
 				<key>withspace</key>
@@ -297,29 +398,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>ruby bunch.rb -f</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>4EB93C9D-45A8-4AF8-9C20-C4CFB9DC833D</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -333,25 +411,6 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>48180282-2A59-4026-A154-A38B95B78B8E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>x-bunch://open?bunch={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>53ABD444-7BB1-453E-9673-E26AA6DCB4AD</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -395,81 +454,17 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>keyword</key>
-				<string>bunch</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>python3 bunch.py</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>bunch.rb</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Work with Bunch</string>
-				<key>type</key>
-				<integer>5</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>067AEB96-43D7-4410-82D2-25499A4DAE36</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>x-bunch://close?bunch={query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>CE9FA7C5-482B-4561-9AB8-DBFAFFE3588E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow takes advantage of Brett Terpstra's [Bunch Application](https://brettterpstra.com/projects/bunch/). 
+	<string>**Update**
+Adds support for bunch's preferences pane.
+
+
+This workflow takes advantage of Brett Terpstra's [Bunch Application](https://brettterpstra.com/projects/bunch/). 
 
 Bunch is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come. 
 
-This workflow utilizes Bunch's [CLI script](https://brettterpstra.com/bunch-beta/docs/integration/cli/) and the [x-callback-url](https://brettterpstra.com/bunch-beta/docs/integration/url-handler/).
+This workflow utilizes Bunch's [x-callback-url](https://brettterpstra.com/bunch-beta/docs/integration/url-handler/).
 
 
 This Workflow is maintained by kjaymiller.
@@ -477,6 +472,10 @@ More at https://kjaymiller.com.
 
 
 ## Directions:
+
+## First Use
+
+&gt; The default path it assumes your bunces are at is `~/bunches` (This is the path I set so if you have any issues where you cannot see your bunches change the variable to your desired path and run `bsettings:refresh`
 
 1. trigger Alfred
 2. type bunch (You should see "Work with Bunch" press **return** or **tab**
@@ -498,114 +497,105 @@ copy the value in configDir and run this command in terminal
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<integer>180</integer>
+			<integer>115</integer>
 			<key>ypos</key>
-			<integer>685</integer>
+			<integer>10</integer>
 		</dict>
 		<key>0A0C9C61-D2B2-4F68-8BBB-8BA320513ADB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1055</integer>
+			<integer>245</integer>
 			<key>ypos</key>
-			<integer>635</integer>
+			<integer>875</integer>
+		</dict>
+		<key>105014BF-1562-46A5-AC03-6CF76967433D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
+			<key>xpos</key>
+			<integer>75</integer>
+			<key>ypos</key>
+			<integer>465</integer>
 		</dict>
 		<key>2F609F3D-188D-4378-B68E-F62C9BB8711B</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>5</integer>
 			<key>xpos</key>
-			<integer>795</integer>
+			<integer>75</integer>
 			<key>ypos</key>
-			<integer>485</integer>
-		</dict>
-		<key>38F02C6F-4C77-47A4-872F-D797372D01BF</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>xpos</key>
-			<integer>1045</integer>
-			<key>ypos</key>
-			<integer>200</integer>
+			<integer>735</integer>
 		</dict>
 		<key>48180282-2A59-4026-A154-A38B95B78B8E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>935</integer>
+			<integer>215</integer>
 			<key>ypos</key>
-			<integer>485</integer>
-		</dict>
-		<key>4EB93C9D-45A8-4AF8-9C20-C4CFB9DC833D</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>xpos</key>
-			<integer>1075</integer>
-			<key>ypos</key>
-			<integer>485</integer>
-		</dict>
-		<key>52BBF730-92FD-4C69-803E-B83B653F974A</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>5</integer>
-			<key>xpos</key>
-			<integer>885</integer>
-			<key>ypos</key>
-			<integer>200</integer>
+			<integer>735</integer>
 		</dict>
 		<key>53ABD444-7BB1-453E-9673-E26AA6DCB4AD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>455</integer>
+			<integer>395</integer>
 			<key>ypos</key>
-			<integer>585</integer>
+			<integer>10</integer>
+		</dict>
+		<key>6905EB44-F809-4A03-8CE7-F1CB4C900861</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>465</integer>
+		</dict>
+		<key>6BC0F4F9-AF18-4E97-BB9A-7C0E6D503A74</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<integer>120</integer>
+			<key>ypos</key>
+			<integer>175</integer>
 		</dict>
 		<key>7D6D96AF-6EFB-4C25-831A-678741FBF6E2</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>5</integer>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>75</integer>
 			<key>ypos</key>
-			<integer>325</integer>
+			<integer>600</integer>
 		</dict>
 		<key>8619B750-1DDE-435E-A4CF-782170633E33</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1225</integer>
+			<integer>360</integer>
 			<key>ypos</key>
-			<integer>485</integer>
+			<integer>735</integer>
 		</dict>
 		<key>9742ED83-5307-4CA5-BAAC-0BEB4411CDB4</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>10</integer>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>285</integer>
 			<key>ypos</key>
-			<integer>325</integer>
-		</dict>
-		<key>A001C415-D64A-47A5-A77D-1217D56E6B16</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1200</integer>
-			<key>ypos</key>
-			<integer>200</integer>
+			<integer>600</integer>
 		</dict>
 		<key>CDBCE65F-3A55-4961-AD2A-EF7B130B1749</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>5</integer>
 			<key>xpos</key>
-			<integer>890</integer>
+			<integer>80</integer>
 			<key>ypos</key>
-			<integer>635</integer>
+			<integer>875</integer>
 		</dict>
 		<key>CE9FA7C5-482B-4561-9AB8-DBFAFFE3588E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>460</integer>
+			<integer>400</integer>
 			<key>ypos</key>
-			<integer>750</integer>
+			<integer>175</integer>
 		</dict>
 	</dict>
 	<key>variables</key>

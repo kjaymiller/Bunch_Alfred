@@ -1,5 +1,3 @@
-[![Bunch Logo](https://github.com/kjaymiller/Bunch_Alfred/blob/main/9EBA9B16-9A22-4846-87D0-B69CEB41B5D4.png?raw=true)][Bunch]
-
 This workflow takes advantage of [Brett Terpstra's Bunch Application][Bunch].
 
 [Bunch] is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come.

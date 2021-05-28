@@ -19,10 +19,10 @@ MODIFIERS (+ Return)
 - Control: Forces Closed the Applications listed in the bunch.
 - Shift: Opens the Bunch file to be edited
 - bedit <bunch> - Opens the Bunch file to be edited
-- bsettings:refresh - Refreshes your Bunch List
-- bsettings:bunches_dir - Reveals the contents of the current bunches directory
+- `bsettings` - Opens the preferences page
+- `bsettings:refresh` - Refreshes your Bunch List
+- `bsettings:bunches_dir` - Reveals the contents of the current bunches directory
   - Modifier cmd - opens the prompt to change the bunches directory. (YOU WILL NEED TO REFRESH YOUR BUNCH LIST)
-
-- bsettings:help - Opens this page!
+- `bsettings:help` - Opens this page!
 
 [Bunch]: https://bunchapp.co

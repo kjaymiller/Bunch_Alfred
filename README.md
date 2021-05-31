@@ -23,4 +23,24 @@ MODIFIERS (+ Return)
   - Modifier cmd - opens the prompt to change the bunches directory. (YOU WILL NEED TO REFRESH YOUR BUNCH LIST)
 - `bsettings:help` - Opens this page!
 
+# FAQ
+### Do you work on Bunch?
+No but I do test bunch and use it very much so when new features come out I do try to make sure that nothing has broken.
+  
+### Can I pass in variables from Alfred?
+Not at the moment, but that is something that I would love to implement sadly this would rely on folks using a similar variable scheme or positional arguments being supported. I would recommend you do something like [Nested Bunches](https://bunchapp.co/docs/bunch-files/other-bunches/) or use [Interactive Dialogs](https://bunchapp.co/docs/bunch-files/interactivity/) to prompt for information.
+  
+### I installed the workflow and it's not seeing my Bunches
+There could be a few problems
+1. Using an outdated version of the workflow. [Install the Latest Version](https://github.com/kjaymiller/Bunch_Alfred/releases/latest)
+2. You have both the stable and the Beta running. (This uses the x-callback-url and the Applescript to run so they may be getting wires crossed. Choose one and uninstall the other)
+3. Your App Cache may be out of date in terms of the `configDir`. To fix, check out the [#Reset AppCache] Section
+
+
+# Reset AppCache  
+To reset the AppCache `configDir` value, delete the existing value.
+1. Complete Quit Bunch
+2. Open terminal, and enter `defaults delete ~/Library/Preferences/com.brettterpstra.Bunch.plist configDir`
+3. ReLaunch Bunch
+
 [Bunch]: https://bunchapp.co

@@ -1,3 +1,9 @@
+> [!NOTE]
+>
+> I'm looking for someone to take over this project as I'm not longer maintaining it.
+> I will continue to merge PRs as they make sense but feel free to ask about taking ownership or merging
+
+
 This workflow takes advantage of [Brett Terpstra's Bunch Application][Bunch].
 
 [Bunch] is a workspace loader that you can use to quickly open/close applications, urls, documents, and more to come.

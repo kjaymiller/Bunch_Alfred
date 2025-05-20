@@ -13,6 +13,6 @@ def make_json_path(p):
         }
 
 json_item = {}
-bunch_items = [x for x in items.split(',') if x]
+bunch_items = [x.strip() for x in items.split(',') if x]
 json_item['items']=list(map(make_json_path, bunch_items))
 print(json.dumps(json_item))
